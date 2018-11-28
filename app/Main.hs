@@ -17,6 +17,7 @@ main = do
   keyboardMouseCallback $= Just (keyboardMouse players)
   idleCallback $= (refresh _window)
   addTimerCallback 16 (timer players)
+  putStrLn "testing git"
   mainLoop
  
 display :: IORef [(Player G.Color)] -> DisplayCallback
