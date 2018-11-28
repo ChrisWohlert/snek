@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - snek
+    - OpenGL
+    - GLUT
 
 tests:
   snek-test:
